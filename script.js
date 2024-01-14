@@ -14,6 +14,7 @@ function addToDo()
         listContainer.appendChild(li);
     }
     inputBox.value = "";
+    saveData();
 }
 
 listContainer.addEventListener("click", function(e)
@@ -21,5 +22,18 @@ listContainer.addEventListener("click", function(e)
     if(e.target.tagName == "LI")
     {
         e.target.remove();
+        saveData();
     }
 }, false);
+
+function saveData()
+{
+    localStorage.setItem("data", listContainer.innerHTML);
+}
+
+function displaySaved()
+{
+    listContainer.innerHTML = localStorage.getItem("data");
+}
+
+displaySaved();
