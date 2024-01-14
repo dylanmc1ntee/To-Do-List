@@ -5,3 +5,9 @@
   In some of my classes, the teachers did not post the assignemnts to the calender.
   This is usually where I check to make sure I have done all of my work. This project is a solution to the problem I had.
 </p>
+<h2>Concepts Learned</h2>
+<ul>
+  <li>Creating a Website Layout in HTML</li>
+  <li>Styling a Website Using CSS</li>
+  <li>Adding Interactive Features in Javascript</li>
+</ul>
