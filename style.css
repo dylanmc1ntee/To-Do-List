@@ -32,7 +32,7 @@
 }
 
 .list h1:hover{
-    color: rgb(0, 140, 0);
+    color: rgb(0, 183, 255);
 }
 
 .search{
@@ -41,7 +41,7 @@
     justify-content: space-between;
     background-color: #fff;
     margin: 0px;
-    border-radius: 10px;
+    border-radius: 11px;
     border-color: rgb(2, 0, 70);
 }
 
@@ -63,10 +63,15 @@ button{
     color: #fff;
     font-size: 16px;
     cursor: pointer;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
 button:hover{
-    background: rgb(0, 140, 0);
+    background: rgb(0, 183, 255);
+    color: rgb(2, 0, 35);
 }
 
 .bar{
@@ -91,7 +96,7 @@ button:hover{
 }
 
 .bar a:hover{
-    color: rgb(0, 140, 0);
+    color: rgb(0, 183, 255);
 }
 
 .list ul{
@@ -113,7 +118,7 @@ button:hover{
 }
 
 .list ul li:hover{
-    background-color: rgb(0, 140, 0);
+    background-color: rgb(0, 183, 255);
 }
 
 ::-webkit-scrollbar {
