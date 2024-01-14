@@ -114,3 +114,15 @@ button:hover{
 .list ul li:hover{
     background-color: rgb(0, 140, 0);
 }
+
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(20, 20, 50);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(30, 30, 50);
+}
